@@ -17,6 +17,7 @@
 		0B37819627248528004381FF /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819527248528004381FF /* PersonalViewController.swift */; };
 		0B37819827248570004381FF /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819727248570004381FF /* AlbumsViewController.swift */; };
 		0B37819A27248593004381FF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819927248593004381FF /* SearchViewController.swift */; };
+		0B37819C27248A09004381FF /* AlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819B27248A09004381FF /* AlbumsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0B37819527248528004381FF /* PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
 		0B37819727248570004381FF /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		0B37819927248593004381FF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0B37819B27248A09004381FF /* AlbumsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		0B37818E272483D9004381FF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0B37819B27248A09004381FF /* AlbumsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B378192272484B8004381FF /* TabBarController.swift in Sources */,
+				0B37819C27248A09004381FF /* AlbumsModel.swift in Sources */,
 				0B37819A27248593004381FF /* SearchViewController.swift in Sources */,
 				0B37817327247EB8004381FF /* AppDelegate.swift in Sources */,
 				0B37819827248570004381FF /* AlbumsViewController.swift in Sources */,
