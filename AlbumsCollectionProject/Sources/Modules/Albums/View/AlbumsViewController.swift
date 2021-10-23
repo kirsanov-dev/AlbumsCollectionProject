@@ -17,6 +17,8 @@ final class AlbumsViewController: UIViewController {
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.register(FirstSectionCell.self, forCellWithReuseIdentifier: FirstSectionCell.identifier)
         collectionView.register(FirstSectionHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: FirstSectionHeader.identifier)
+        collectionView.register(SecondSectionCell.self, forCellWithReuseIdentifier: SecondSectionCell.identifier)
+        collectionView.register(SecondSectionHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: SecondSectionHeader.identifier)
         return collectionView
     }()
     
@@ -46,8 +48,8 @@ final class AlbumsViewController: UIViewController {
     
     func setupCollectionLayout() -> UICollectionViewCompositionalLayout {
         return UICollectionViewCompositionalLayout { (sectionIndex, environment) -> NSCollectionLayoutSection? in
-                
-            // section 1
+            
+            if sectionIndex == 0 {
             
                 let itemSize = NSCollectionLayoutSize(
                     widthDimension: .absolute(180),
@@ -79,6 +81,40 @@ final class AlbumsViewController: UIViewController {
                 sectionOne.orthogonalScrollingBehavior = .continuous
                 
                 return sectionOne
+                
+            } else {
+                
+                let itemSize = NSCollectionLayoutSize(
+                    widthDimension: .absolute(180),
+                    heightDimension: .absolute(240)
+                )
+                
+                let item = NSCollectionLayoutItem(layoutSize: itemSize)
+                
+                item.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 2, bottom: 10, trailing: 2)
+                
+                let groupSize = NSCollectionLayoutSize(
+                    widthDimension: .absolute(180),
+                    heightDimension: .absolute(240)
+                )
+                
+                let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+                
+                let headerSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0),
+                                                                         heightDimension: .absolute(35.0))
+                
+                let header = NSCollectionLayoutBoundarySupplementaryItem(
+                                layoutSize: headerSize,
+                                elementKind: UICollectionView.elementKindSectionHeader,
+                                alignment: .top)
+                
+                let sectionTwo = NSCollectionLayoutSection(group: group)
+                sectionTwo.boundarySupplementaryItems = [header]
+                sectionTwo.contentInsets = .init(top: 10, leading: 0, bottom: 20, trailing: 0)
+                sectionTwo.orthogonalScrollingBehavior = .continuous
+                
+                return sectionTwo
+            }
         }
     }
 }
