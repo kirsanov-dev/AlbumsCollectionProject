@@ -56,15 +56,103 @@
 		0B37817127247EB8004381FF /* AlbumsCollectionProject */ = {
 			isa = PBXGroup;
 			children = (
+				0B378188272482D2004381FF /* Resources */,
+				0B378189272482FE004381FF /* Sources */,
+			);
+			path = AlbumsCollectionProject;
+			sourceTree = "<group>";
+		};
+		0B3781862724822F004381FF /* App */ = {
+			isa = PBXGroup;
+			children = (
 				0B37817227247EB8004381FF /* AppDelegate.swift */,
 				0B37817427247EB8004381FF /* SceneDelegate.swift */,
-				0B37817627247EB8004381FF /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0B37818727248297004381FF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0B3781902724843C004381FF /* TabBar */,
+				0B37818D2724838E004381FF /* MediaLibrary */,
+				0B37818A27248372004381FF /* Albums */,
+				0B37818C2724837F004381FF /* Personal */,
+				0B37818B27248377004381FF /* Search */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0B378188272482D2004381FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0B37817827247EB8004381FF /* Main.storyboard */,
 				0B37817B27247EBD004381FF /* Assets.xcassets */,
 				0B37817D27247EBD004381FF /* LaunchScreen.storyboard */,
 				0B37818027247EBD004381FF /* Info.plist */,
 			);
-			path = AlbumsCollectionProject;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0B378189272482FE004381FF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0B3781862724822F004381FF /* App */,
+				0B37818727248297004381FF /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0B37818A27248372004381FF /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				0B37818E272483D9004381FF /* Model */,
+				0B37818F272483E0004381FF /* View */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		0B37818B27248377004381FF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0B37818C2724837F004381FF /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		0B37818D2724838E004381FF /* MediaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MediaLibrary;
+			sourceTree = "<group>";
+		};
+		0B37818E272483D9004381FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B37818F272483E0004381FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0B37817627247EB8004381FF /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0B3781902724843C004381FF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
