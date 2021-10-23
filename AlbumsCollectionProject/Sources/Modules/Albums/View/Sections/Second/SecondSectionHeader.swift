@@ -1,5 +1,5 @@
 //
-//  FirstSectionHeader.swift
+//  SecondSectionHeader.swift
 //  AlbumsCollectionProject
 //
 //  Created by Oleg Kirsanov on 23.10.2021.
@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-class FirstSectionHeader: UICollectionReusableView {
+class SecondSectionHeader: UICollectionReusableView {
     
-    static let identifier = "FirstSectionHeader"
+    static let identifier = "SecondSectionHeader"
     
     // MARK: - Views
     
@@ -24,7 +24,7 @@ class FirstSectionHeader: UICollectionReusableView {
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Мои альбомы"
+        label.text = "Общие альбомы"
         label.font = .systemFont(ofSize: 25, weight: .bold)
         label.textAlignment = .left
         label.textColor = .black

@@ -21,6 +21,8 @@
 		0B3781A627248C46004381FF /* FirstSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781A527248C46004381FF /* FirstSectionCell.swift */; };
 		0B3781A827248C53004381FF /* FirstSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781A727248C53004381FF /* FirstSectionHeader.swift */; };
 		0B3781AA27248DC6004381FF /* AlbumsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781A927248DC6004381FF /* AlbumsDataSource.swift */; };
+		0B3781AC272494C8004381FF /* SecondSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781AB272494C8004381FF /* SecondSectionCell.swift */; };
+		0B3781AE272494D7004381FF /* SecondSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781AD272494D7004381FF /* SecondSectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		0B3781A527248C46004381FF /* FirstSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSectionCell.swift; sourceTree = "<group>"; };
 		0B3781A727248C53004381FF /* FirstSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSectionHeader.swift; sourceTree = "<group>"; };
 		0B3781A927248DC6004381FF /* AlbumsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsDataSource.swift; sourceTree = "<group>"; };
+		0B3781AB272494C8004381FF /* SecondSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSectionCell.swift; sourceTree = "<group>"; };
+		0B3781AD272494D7004381FF /* SecondSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,8 @@
 		0B3781A327248C02004381FF /* Second */ = {
 			isa = PBXGroup;
 			children = (
+				0B3781AB272494C8004381FF /* SecondSectionCell.swift */,
+				0B3781AD272494D7004381FF /* SecondSectionHeader.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -295,12 +301,14 @@
 				0B3781A627248C46004381FF /* FirstSectionCell.swift in Sources */,
 				0B37819A27248593004381FF /* SearchViewController.swift in Sources */,
 				0B37817327247EB8004381FF /* AppDelegate.swift in Sources */,
+				0B3781AE272494D7004381FF /* SecondSectionHeader.swift in Sources */,
 				0B3781A827248C53004381FF /* FirstSectionHeader.swift in Sources */,
 				0B3781AA27248DC6004381FF /* AlbumsDataSource.swift in Sources */,
 				0B37819827248570004381FF /* AlbumsViewController.swift in Sources */,
 				0B37817527247EB8004381FF /* SceneDelegate.swift in Sources */,
 				0B37819627248528004381FF /* PersonalViewController.swift in Sources */,
 				0B378194272484F4004381FF /* MediaLibraryViewController.swift in Sources */,
+				0B3781AC272494C8004381FF /* SecondSectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
