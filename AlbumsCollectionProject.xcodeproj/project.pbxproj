@@ -18,6 +18,9 @@
 		0B37819827248570004381FF /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819727248570004381FF /* AlbumsViewController.swift */; };
 		0B37819A27248593004381FF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819927248593004381FF /* SearchViewController.swift */; };
 		0B37819C27248A09004381FF /* AlbumsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B37819B27248A09004381FF /* AlbumsModel.swift */; };
+		0B3781A627248C46004381FF /* FirstSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781A527248C46004381FF /* FirstSectionCell.swift */; };
+		0B3781A827248C53004381FF /* FirstSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781A727248C53004381FF /* FirstSectionHeader.swift */; };
+		0B3781AA27248DC6004381FF /* AlbumsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3781A927248DC6004381FF /* AlbumsDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		0B37819727248570004381FF /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		0B37819927248593004381FF /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0B37819B27248A09004381FF /* AlbumsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsModel.swift; sourceTree = "<group>"; };
+		0B3781A527248C46004381FF /* FirstSectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSectionCell.swift; sourceTree = "<group>"; };
+		0B3781A727248C53004381FF /* FirstSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSectionHeader.swift; sourceTree = "<group>"; };
+		0B3781A927248DC6004381FF /* AlbumsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				0B37819727248570004381FF /* AlbumsViewController.swift */,
+				0B3781A927248DC6004381FF /* AlbumsDataSource.swift */,
+				0B37819D27248BA5004381FF /* Sections */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +176,47 @@
 				0B378191272484B8004381FF /* TabBarController.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0B37819D27248BA5004381FF /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				0B3781A227248BFC004381FF /* First */,
+				0B3781A327248C02004381FF /* Second */,
+				0B3781A127248BEF004381FF /* Third */,
+				0B3781A427248C0A004381FF /* Fourth */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		0B3781A127248BEF004381FF /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		0B3781A227248BFC004381FF /* First */ = {
+			isa = PBXGroup;
+			children = (
+				0B3781A527248C46004381FF /* FirstSectionCell.swift */,
+				0B3781A727248C53004381FF /* FirstSectionHeader.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		0B3781A327248C02004381FF /* Second */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		0B3781A427248C0A004381FF /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fourth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +292,11 @@
 			files = (
 				0B378192272484B8004381FF /* TabBarController.swift in Sources */,
 				0B37819C27248A09004381FF /* AlbumsModel.swift in Sources */,
+				0B3781A627248C46004381FF /* FirstSectionCell.swift in Sources */,
 				0B37819A27248593004381FF /* SearchViewController.swift in Sources */,
 				0B37817327247EB8004381FF /* AppDelegate.swift in Sources */,
+				0B3781A827248C53004381FF /* FirstSectionHeader.swift in Sources */,
+				0B3781AA27248DC6004381FF /* AlbumsDataSource.swift in Sources */,
 				0B37819827248570004381FF /* AlbumsViewController.swift in Sources */,
 				0B37817527247EB8004381FF /* SceneDelegate.swift in Sources */,
 				0B37819627248528004381FF /* PersonalViewController.swift in Sources */,

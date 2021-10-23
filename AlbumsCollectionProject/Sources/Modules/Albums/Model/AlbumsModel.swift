@@ -14,7 +14,7 @@ struct AlbumsModel {
 }
 
 extension AlbumsModel {
-    static let myAlbumsData = [
+    static let firstSectionData = [
         AlbumsModel(image: UIImage(named: "albums-pic1"), titleText: "Weird Buildings", numberText: 8),
         AlbumsModel(image: UIImage(named: "albums-pic2"), titleText: "Old Monuments", numberText: 12),
         AlbumsModel(image: UIImage(named: "albums-pic3"), titleText: "Factories", numberText: 4),
@@ -25,20 +25,20 @@ extension AlbumsModel {
         AlbumsModel(image: UIImage(named: "albums-pic8"), titleText: "Trains", numberText: 8)
     ]
     
-    static let generalAlbumsData = [
+    static let secondSectionData = [
         AlbumsModel(image: UIImage(named: "albums-pic1"), titleText: "Weird Buildings", numberText: 8),
         AlbumsModel(image: UIImage(named: "albums-pic2"), titleText: "Old Monuments", numberText: 12),
         AlbumsModel(image: UIImage(named: "albums-pic3"), titleText: "Factories", numberText: 4),
         AlbumsModel(image: UIImage(named: "albums-pic4"), titleText: "TV Towers", numberText: 21),
     ]
     
-    static let socialMedia = [
+    static let thirdSectionData = [
         AlbumsModel(image: UIImage(named: "facebook"), titleText: "Facebook", numberText: 8),
         AlbumsModel(image: UIImage(named: "telegram"), titleText: "Telegram", numberText: 12),
         AlbumsModel(image: UIImage(named: "whatsapp"), titleText: "Whatsapp", numberText: 4),
     ]
     
-    static let otherMediaFiles = [
+    static let fourthSectionData = [
         AlbumsModel(image: UIImage(systemName: "square.and.arrow.down"), titleText: "Импортированные", numberText: 4),
         AlbumsModel(image: UIImage(systemName: "trash"), titleText: "Удаленные", numberText: 8),
         AlbumsModel(image: UIImage(systemName: "eye.slash"), titleText: "Скрытые", numberText: 12)
