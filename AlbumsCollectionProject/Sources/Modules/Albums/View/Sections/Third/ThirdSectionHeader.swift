@@ -76,7 +76,6 @@ class ThirdSectionHeader: UICollectionReusableView {
         showAllLabel.trailingAnchor.constraint(equalTo: container.trailingAnchor).isActive = true
         showAllLabel.centerYAnchor.constraint(equalTo: container.centerYAnchor).isActive = true
     }
-    
 }
 
 

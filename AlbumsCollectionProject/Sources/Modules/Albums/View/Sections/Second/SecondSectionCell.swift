@@ -88,7 +88,5 @@ static let identifier = "SecondSectionCell"
         numberLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 2).isActive = true
         titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
         titleLabel.widthAnchor.constraint(equalTo: contentView.widthAnchor).isActive = true
-
     }
-    
 }

@@ -87,6 +87,5 @@ static let identifier = "ThirdSectionCell"
         numberLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10).isActive = true
         numberLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor).isActive = true
     }
-    
 }
 
